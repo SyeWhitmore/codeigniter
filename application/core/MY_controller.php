@@ -25,3 +25,12 @@ class BackendController extends CommonController
         parent::__construct();
     }
 }
+
+// Extend AuthController instead of CI_Controller for all user auth stuff
+class AuthController extends CI_Controller
+{
+    public function __construct()
+    {
+        parent::__construct();
+    }
+}
