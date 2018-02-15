@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class pages extends CI_Controller {
+class pages extends FrontendController {
 	
 	// This loads the homepage
 	public function index()
